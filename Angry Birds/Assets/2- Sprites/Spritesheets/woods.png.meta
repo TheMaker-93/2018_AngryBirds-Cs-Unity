@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: a980a2c0adf2e314593631d91688ae68
+timeCreated: 1517931273
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Square_0
+    21300002: Triangle_3
+    21300004: Ramp_0
+    21300006: Ball_1
+    21300008: Ball_2
+    21300010: woods_9
+    21300012: Ramp_1
+    21300014: Ball_0
+    21300016: woods_17
+    21300018: Ramp_3
+    21300020: Square_1
+    21300022: Square_2
+    21300024: Square_3
+    21300026: Triangle_0
+    21300028: Triangle_1
+    21300030: Triangle_2
+    21300032: Ramp_2
+    21300034: Ball_3
+    21300036: beam_0
+    21300038: beam_1
+    21300040: beam_2
+    21300042: beam_3
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Square_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 42}
+        - {x: -42, y: -42}
+        - {x: 42, y: -42}
+        - {x: 42, y: 42}
+      physicsShape:
+      - - {x: -42, y: 42}
+        - {x: -42, y: -41}
+        - {x: -41, y: -42}
+        - {x: 42, y: -42}
+        - {x: 42, y: 42}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 333
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 42}
+        - {x: -17, y: 19}
+        - {x: -38, y: -19}
+        - {x: -42, y: -29}
+        - {x: -42, y: -39}
+        - {x: -40, y: -42}
+        - {x: 42, y: -42}
+        - {x: 42, y: -27}
+        - {x: 8, y: 42}
+      - - {x: 0, y: 2}
+        - {x: 0, y: -3}
+        - {x: 9, y: -16}
+        - {x: -9, y: -16}
+      physicsShape:
+      - - {x: 6, y: 42}
+        - {x: -17, y: 42}
+        - {x: -42, y: -32}
+        - {x: -42, y: -42}
+        - {x: 42, y: -42}
+        - {x: 42, y: -25}
+        - {x: 9, y: 41}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ramp_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 251
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 40.5}
+        - {x: -40, y: -40.5}
+        - {x: 40, y: -40.5}
+        - {x: 40, y: -33.5}
+        - {x: -34, y: 40.5}
+      physicsShape:
+      - - {x: -40, y: 40.5}
+        - {x: -40, y: -40.5}
+        - {x: 40, y: -40.5}
+        - {x: 40, y: -34.5}
+        - {x: -35, y: 40.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ball_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 258
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 37.5}
+        - {x: -38, y: 22.5}
+        - {x: -38, y: -31.5}
+        - {x: -21, y: -37.5}
+        - {x: 33, y: -37.5}
+        - {x: 38, y: -31.5}
+        - {x: 38, y: 32.5}
+        - {x: 32, y: 37.5}
+      physicsShape:
+      - - {x: 31, y: 37.5}
+        - {x: -33, y: 37.5}
+        - {x: -38, y: 28.5}
+        - {x: -38, y: -15.5}
+        - {x: -30, y: -37.5}
+        - {x: 24, y: -37.5}
+        - {x: 36, y: -27.5}
+        - {x: 38, y: -15.5}
+        - {x: 38, y: 25.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ball_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 257
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 37.5}
+        - {x: -38, y: 20.5}
+        - {x: -38, y: -29.5}
+        - {x: -32, y: -37.5}
+        - {x: 38, y: -37.5}
+        - {x: 38, y: 25.5}
+        - {x: 26, y: 37.5}
+      physicsShape:
+      - - {x: -20, y: 37.5}
+        - {x: -38, y: 19.5}
+        - {x: -38, y: -19.5}
+        - {x: -37, y: -24.5}
+        - {x: -16, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 38, y: -20.5}
+        - {x: 38, y: 16.5}
+        - {x: 24, y: 37.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: woods_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 292
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 20}
+        - {x: -20.5, y: -20}
+        - {x: 20.5, y: -20}
+        - {x: 20.5, y: 20}
+      physicsShape:
+      - - {x: -20.5, y: 20}
+        - {x: -20.5, y: -20}
+        - {x: 20.5, y: -20}
+        - {x: 20.5, y: 20}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ramp_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 170
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 40}
+        - {x: -40, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: -34}
+        - {x: -34, y: 40}
+      physicsShape:
+      - - {x: -40, y: 40}
+        - {x: -40, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: -35}
+        - {x: -35, y: 40}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ball_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 11
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 37.5}
+        - {x: -22, y: 37.5}
+        - {x: -37, y: 22.5}
+        - {x: -38, y: 16.5}
+        - {x: -38, y: -20.5}
+        - {x: -24, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 36, y: -26.5}
+        - {x: 38, y: -16.5}
+        - {x: 38, y: 23.5}
+      physicsShape:
+      - - {x: -22, y: 37.5}
+        - {x: -28, y: 33.5}
+        - {x: -38, y: 23.5}
+        - {x: -38, y: -23.5}
+        - {x: -33, y: -37.5}
+        - {x: 20, y: -37.5}
+        - {x: 38, y: -30.5}
+        - {x: 38, y: 25.5}
+        - {x: 31, y: 37.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: woods_17
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 83
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 10.5}
+        - {x: -20.5, y: -10.5}
+        - {x: 20.5, y: -10.5}
+        - {x: 20.5, y: 10.5}
+      physicsShape:
+      - - {x: -20.5, y: 10.5}
+        - {x: -20.5, y: -10.5}
+        - {x: 20.5, y: -10.5}
+        - {x: 20.5, y: 10.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ramp_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 40.5}
+        - {x: -40, y: 40.5}
+        - {x: -40, y: -40.5}
+        - {x: 40, y: -40.5}
+        - {x: 40, y: -31.5}
+        - {x: 0, y: 7.5}
+      physicsShape:
+      - - {x: -40, y: 40.5}
+        - {x: -40, y: -40.5}
+        - {x: 40, y: -40.5}
+        - {x: 40, y: -32.5}
+        - {x: -34, y: 40.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 42}
+        - {x: -42, y: -42}
+        - {x: 42, y: -42}
+        - {x: 42, y: 42}
+      physicsShape:
+      - - {x: -42, y: 42}
+        - {x: -42, y: -41}
+        - {x: -41, y: -42}
+        - {x: 42, y: -42}
+        - {x: 42, y: 42}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 42}
+        - {x: -42, y: -41}
+        - {x: -40, y: -42}
+        - {x: 40, y: -42}
+        - {x: 42, y: -39}
+        - {x: 42, y: 42}
+      physicsShape:
+      - - {x: -42, y: 42}
+        - {x: -42, y: -42}
+        - {x: 42, y: -42}
+        - {x: 42, y: 42}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 42}
+        - {x: -42, y: -41}
+        - {x: -40, y: -42}
+        - {x: 40, y: -42}
+        - {x: 42, y: -39}
+        - {x: 42, y: 42}
+      physicsShape:
+      - - {x: -42, y: 42}
+        - {x: -42, y: -42}
+        - {x: 42, y: -42}
+        - {x: 42, y: 42}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 333
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.22264, y: -38.11322}
+        - {x: -37.954834, y: -41.06717}
+        - {x: 38.640045, y: -41.36609}
+        - {x: 41.5336, y: -38.890564}
+        - {x: 41.533585, y: -33.752045}
+        - {x: 2.4437256, y: 40.386017}
+        - {x: 0.06906128, y: 41.400482}
+        - {x: -2.9498444, y: 39.98114}
+        - {x: -40.685272, y: -33.20752}
+      physicsShape:
+      - - {x: 0.8138809, y: 41.19409}
+        - {x: -0.9686279, y: 41.104797}
+        - {x: -3.1756058, y: 40.106598}
+        - {x: -41.471245, y: -34.680847}
+        - {x: -41.016098, y: -39.035004}
+        - {x: -38.721718, y: -41.15399}
+        - {x: 39.56772, y: -41.259735}
+        - {x: 41.471237, y: -38.363586}
+        - {x: 41.17488, y: -33.179993}
+        - {x: 3.113678, y: 39.910645}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 333
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.037918, y: -33.690094}
+        - {x: -41.389236, y: -38.47055}
+        - {x: -38.151703, y: -40.917664}
+        - {x: 38.873245, y: -41.158203}
+        - {x: 41.594177, y: -38.93622}
+        - {x: 41.278442, y: -34.184113}
+        - {x: 3.3162842, y: 39.815674}
+        - {x: -0.25144958, y: 41.355743}
+        - {x: -3.2019196, y: 39.74414}
+      physicsShape:
+      - - {x: 3, y: 42}
+        - {x: -6, y: 42}
+        - {x: -8, y: 41}
+        - {x: -42, y: -24}
+        - {x: -42, y: -42}
+        - {x: 42, y: -42}
+        - {x: 42, y: -28}
+        - {x: 7, y: 40}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 332
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 42.5}
+        - {x: -40, y: -17.5}
+        - {x: -42, y: -26.5}
+        - {x: -42, y: -42.5}
+        - {x: 42, y: -42.5}
+        - {x: 42, y: -24.5}
+        - {x: 8, y: 42.5}
+      - - {x: 0, y: 2.5}
+        - {x: 0, y: -2.5}
+        - {x: 9, y: -15.5}
+        - {x: -9, y: -15.5}
+      physicsShape:
+      - - {x: -42, y: -42.5}
+        - {x: 42, y: -42.5}
+        - {x: 42, y: -14.5}
+        - {x: 28, y: 42.5}
+        - {x: -5, y: 42.5}
+        - {x: -7, y: 41.5}
+        - {x: -42, y: -26.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ramp_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 88
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 40.5}
+        - {x: -40, y: 40.5}
+        - {x: -40, y: -40.5}
+        - {x: 40, y: -40.5}
+        - {x: 40, y: -31.5}
+        - {x: 0, y: 7.5}
+      physicsShape:
+      - - {x: -40, y: 40.5}
+        - {x: -40, y: -40.5}
+        - {x: 40, y: -40.5}
+        - {x: 40, y: -32.5}
+        - {x: -35, y: 40.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ball_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 38}
+        - {x: -38.5, y: -25}
+        - {x: -34.5, y: -38}
+        - {x: 33.5, y: -38}
+        - {x: 38.5, y: -25}
+        - {x: 38.5, y: 33}
+        - {x: 33.5, y: 38}
+      physicsShape:
+      - - {x: 29.5, y: 38}
+        - {x: -18.5, y: 38}
+        - {x: -38.5, y: 28}
+        - {x: -38.5, y: -26}
+        - {x: -18.5, y: -38}
+        - {x: 24.5, y: -38}
+        - {x: 38.5, y: -15}
+        - {x: 38.5, y: 20}
+        - {x: 34.5, y: 29}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beam_0
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 192
+        width: 205
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beam_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 170
+        width: 205
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beam_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 148
+        width: 205
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beam_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 126
+        width: 205
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
